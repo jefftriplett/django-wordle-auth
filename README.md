@@ -1,6 +1,6 @@
 # Django Wordle Auth
 
-Django Wordle Auth is built for demo websites and should never be used in production.
+Django Wordle Auth is built for demo websites and should *never* be used in production.
 
 Django Wordle Auth uses "today's Wordle" word of the day as your password.
 
