@@ -1,8 +1,8 @@
 # Django Wordle Auth
 
-Django Wordle Auth is built for demo websites and **should never be used in a production environment**.
+Django Wordle Auth backend that uses today's Wordle word of the day as your password.
 
-Django Wordle Auth uses "today's Wordle" word of the day as your password.
+:fire: Django Wordle Auth is built for demo websites and **should never be used in a production environment**. :fire: 
 
 ## Install
 
