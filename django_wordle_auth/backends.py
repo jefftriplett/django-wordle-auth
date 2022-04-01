@@ -4,7 +4,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.backends import ModelBackend
 from django.utils.timezone import now
 
-from djangowordleauth.words import WORDS
+from django_wordle_auth.words import WORDS
 
 
 UserModel = get_user_model()

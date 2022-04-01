@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 from django.core.checks import register, Tags
 
-from djangowordleauth.checks import check_config
+from django_wordle_auth.checks import check_config
 
 
 class DjangoWordleAuthConfig(AppConfig):

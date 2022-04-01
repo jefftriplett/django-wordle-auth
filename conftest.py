@@ -5,7 +5,7 @@ def pytest_configure():
     settings.configure(
         AUTHENTICATION_BACKENDS=[
             "django.contrib.auth.backends.ModelBackend",
-            "djangowordleauth.backends.DjangoWordleAuthBackend",
+            "django_wordle_auth.backends.DjangoWordleAuthBackend",
         ],
         DATABASES={
             "default": {

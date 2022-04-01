@@ -10,11 +10,11 @@ Django Wordle Auth uses "today's Wordle" word of the day as your password.
 python -m pip install django-wordle-auth
 ```
 
-Then add `djangowordleauth.backends.DjangoWordleAuthBackend` to your `settings.AUTHENTICATION_BACKENDS` like:
+Then add `django_wordle_auth.backends.DjangoWordleAuthBackend` to your `settings.AUTHENTICATION_BACKENDS` like:
 
 ```python
 AUTHENTICATION_BACKENDS = [
     "django.contrib.auth.backends.ModelBackend",
-    "djangowordleauth.backends.DjangoWordleAuthBackend",
+    "django_wordle_auth.backends.DjangoWordleAuthBackend",
 ]
 ```

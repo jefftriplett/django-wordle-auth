@@ -7,7 +7,7 @@ def check_config(**kwargs: Any) -> list[Error]:
     errors = []
 
     if (
-        "djangowordleauth.backends.DjangoWordleAuthBackend"
+        "django_wordle_auth.backends.DjangoWordleAuthBackend"
         in settings.AUTHENTICATION_BACKENDS
     ):
         errors.extend(

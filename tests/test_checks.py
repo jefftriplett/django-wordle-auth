@@ -1,6 +1,6 @@
 from django.test import override_settings
 
-from djangowordleauth import checks
+from django_wordle_auth import checks
 
 
 def test_fail_in_settings():
